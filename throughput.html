@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Throughput Charts</title>
+    <style>
+        /* Add CSS styles for the page layout and appearance */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .chart-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiple Throughput Charts</h1>
+
+    <!-- Display first chart using iframe -->
+    <div class="chart-container">
+        <h2>Chart 1</h2>
+        <iframe src="/Users/saifulahmed/Documents/workspace_python/AUThroughputComparsion/AlticeUSA-6&5G-Downstream-ThroughputComparison_line_chart.html"></iframe>
+    </div>
+
+    <!-- Display second chart using embed -->
+    <div class="chart-container">
+        <h2>Chart 2</h2>
+        <embed src="/Users/saifulahmed/Documents/workspace_python/AUThroughputComparsion/AlticeUSA-6&5G-Upstream-ThroughputComparison_line_chart.html" type="text/html" width="100%" height="500px">
+    </div>
+
+    <!-- Display third chart using embed -->
+    <div class="chart-container">
+        <h2>Chart 3</h2>
+        <embed src="/Users/saifulahmed/Documents/workspace_python/AUThroughputComparsion/AlticeUSA-6G-Downstream-ThroughputComparison_line_chart.html" type="text/html" width="100%" height="500px">
+    </div>
+
+    <!-- Add more iframes or embed elements for additional charts as needed -->
+</body>
+</html>
